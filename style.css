@@ -1,0 +1,183 @@
+.comic-relief-regular {
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.comic-relief-bold {
+    font-family: "Comic Relief", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.rightsection img {
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 129%;
+    border: 9px solid;
+}
+
+
+body {
+    background-color: rgb(7, 1, 49);
+    color: rgb(247, 243, 237);
+    font-family: cursive;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(37, 4, 99);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 30px;
+}
+
+
+nav ul li a {
+    color: rgb(244, 248, 252);
+}
+
+nav ul li a:hover {
+    color: rgb(95, 121, 93);
+    font-size: 1.1rem;
+}
+
+
+left {
+    font-size: 1.60rem;
+}
+
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+}
+
+.leftsection {
+    font-size: 3rem;
+    font-family: system-ui;
+}
+
+.rightsection {
+    margin: 2%;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.red {
+    color: rgb(164, 21, 207);
+}
+
+#element {
+    color: rgb(164, 21, 207);
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+main hr {
+    border: 0;
+    margin: 27px;
+    background-color: #0d259b;
+    height: 3.2px
+}
+
+.grey {
+    color: rgb(167 167 179);
+}
+
+.secondsection .box {
+    background: white;
+    width: 84vw;
+    height: 2px;
+    margin: 35px;
+    display: flex;
+
+
+}
+
+.secondsection .verticle {
+    background-color: white;
+    width: 1px;
+    height: 92px;
+    margin: 0 100px;
+}
+
+.top-img {
+    width: 26px;
+    position: relative;
+    top: -25px;
+    left: -4px;
+}
+
+.Verticle-Title {
+    position: relative;
+    top: -2px;
+    left: 9px;
+}
+
+.verticle-dsc {
+    color: grey;
+    position: relative;
+    top: 11px;
+    font-size: 12px;
+    width: 194px;
+    left: 10px;
+}
+
+.second-img {
+    width: 19px;
+    position: relative;
+    top: -28px;
+    left: -5px;
+}
+
+.vedio-img {
+    width: 42px;
+    position: relative;
+    top: -32px;
+    left: -5px;
+}
+
+.graph-img {
+    width: 42px;
+    position: relative;
+    top: -38px;
+    left: -5px;
+}
+
+.web-img {
+    width: 41px;
+    position: relative;
+    top: -33px;
+    left: 0px;
+}
+
+div hr {
+    margin: 38px;
+    color: #5454a9;
+    /* height: 1px; */
+    background-color: blue;
+}
